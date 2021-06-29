@@ -19,9 +19,9 @@ tab_count_total.columns = new_columns
 
 # Normalizando pela base de clientes de cada mês
 
-tab_count_total["quant_norm_2019"] = (tab_count_total["quant_2019"]*100)/(dados_accounts_df["subscriptions_2019"])
-tab_count_total["quant_norm_2020"] = (tab_count_total["quant_2020"]*100)/(dados_accounts_df["subscriptions_2020"])
-tab_count_total["quant_norm_2021"] = (tab_count_total["quant_2021"]*100)/(dados_accounts_df["subscriptions_2021"])
+tab_count_total["quant_norm_2019"] = (tab_count_total["quant_2019"]*100)/(dados_accounts_df["2019"])
+tab_count_total["quant_norm_2020"] = (tab_count_total["quant_2020"]*100)/(dados_accounts_df["2020"])
+tab_count_total["quant_norm_2021"] = (tab_count_total["quant_2021"]*100)/(dados_accounts_df["2021"])
 
 display(tab_count_total)
 print("\n")
