@@ -1,3 +1,5 @@
+# Fazendo merge de três Dataframes
+
 tab_count_p1_total = pd.merge(tab_count_2019, tab_count_2020, how = 'inner', on = 'month')
 tab_count_total = pd.merge(tab_count_p1_total, tab_count_2021, how = 'outer', on = 'month')
 new_columns = tab_count_total.columns.values
