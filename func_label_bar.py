@@ -1,6 +1,7 @@
 # Adiciona rótulos nas barras de gráficos em barra.
 # Exemplo de gráfico utilizado pela função:
 # conjunto_dados = plt.barh(tab["var_1"], tab["var_2"], color="red")
+# Chamar a função passando como argumento o gráfico em si
 
 def autolabel(conjunto_dados):
   for i in conjunto_dados:
